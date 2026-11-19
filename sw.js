@@ -1,5 +1,5 @@
 // Uygulama kabuğunu önbellekler: internet yokken de açılır (veri son kaydedilenden gelir).
-const SURUM = "istakip-v1";
+const SURUM = "istakip-v2";
 const KABUK = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png"];
 
 self.addEventListener("install", (e) => {
